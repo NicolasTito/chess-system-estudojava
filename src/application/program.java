@@ -29,7 +29,7 @@ public class program {
 				
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 		
-			}
+			}	
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
